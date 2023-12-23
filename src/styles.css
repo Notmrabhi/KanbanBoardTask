@@ -1,0 +1,78 @@
+/* src/styles.css */
+
+.app {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .right-section {
+    display: flex;
+  }
+  
+  .display-button {
+    padding: 8px 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .group-section,
+  .sort-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .kanban-board {
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+  }
+  
+  .group {
+    margin: 20px;
+  }
+  
+  .ticket {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    width: 200px;
+  }
+  
+  .priority-0 {
+    background-color: #f0f0f0;
+  }
+  
+  .priority-1 {
+    background-color: #ffe7b3;
+  }
+  
+  .priority-2 {
+    background-color: #ffcc99;
+  }
+  
+  .priority-3 {
+    background-color: #ff9966;
+  }
+  
+  .priority-4 {
+    background-color: #ff6347;
+  }
+  
+  /* Add night mode styles as needed */
+  .night-mode {
+    background-color: #333;
+    color: white;
+  }
+  
