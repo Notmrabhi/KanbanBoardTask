@@ -1,6 +1,6 @@
-# [Kanban Board Application](https://main.d2nq9mz8ggbsl4.amplifyapp.com)
+# [Kanban Board Application](https://frolicking-sopapillas-dcb91d.netlify.app/)
 
-This is a Kanban board application built using React JS that interacts with the provided API from [https://api.quicksell.co/v1/internal/frontend-assignment](https://api.quicksell.co/v1/internal/frontend-assignment). The application allows users to dynamically adjust the Kanban board based on their grouping and sorting preferences. Users can group tickets by status, user, or priority, and sort the displayed tickets by priority or title. The application also retains the user's view state even after page reload.
+This is a Kanban board application built using React + vite that interacts with the provided API from [https://tfyincvdrafxe7ut2ziwuhe5cm0xvsdu.lambda-url.ap-south-1.on.aws/ticketAndUsers](https://tfyincvdrafxe7ut2ziwuhe5cm0xvsdu.lambda-url.ap-south-1.on.aws/ticketAndUsers). The application allows users to dynamically adjust the Kanban board based on their grouping and sorting preferences. Users can group tickets by status, user, or priority, and sort the displayed tickets by priority or title. The application also retains the user's view state even after page reload.
 
 ## Features
 
@@ -12,20 +12,17 @@ This is a Kanban board application built using React JS that interacts with the 
 
 ## Demo
 
-You can see a live demo of the Kanban board application [here](https://main.d2nq9mz8ggbsl4.amplifyapp.com).
+You can see a live demo of the Kanban board application [here](https://frolicking-sopapillas-dcb91d.netlify.app/).
 
 ## Installation
 
 To run the Kanban board application locally, follow these steps:
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/sagarchauhan015/kanban-board.git
-   ```
 
-2. Navigate to the project directory:
+
+1. Navigate to the project directory:
     ```bash
-    cd kanban-board
+    cd kanbanBoard
     ```
 
 3. Install the required dependencies:
@@ -34,9 +31,9 @@ To run the Kanban board application locally, follow these steps:
     ```
 4. Start the development server:
     ```bash
-    npm start
+    npm run dev
     ```
-5. Open your web browser and visit http://localhost:3000 to use the application.
+5. Open your web browser by following the link given in terminal visit  to use the application (http://127.0.0.1:5173/).
 
 
 ## Usage
@@ -52,30 +49,4 @@ To run the Kanban board application locally, follow these steps:
 5. The application will save your view state, so you can return to your preferred settings even after a page reload.
 
 
-## Contributing
 
-If you'd like to contribute to this project, please follow these guidelines:
-
-1. Fork the repository on GitHub.
-
-2. Clone the forked repository to your local machine.
-
-3. Create a new branch for your feature or bug fix:
-
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
-4. Make your changes, commit them, and push to your fork.
-
-5. Open a pull request to the original repository, explaining the changes you made.
-
-
-## Contact
-
-If you have any questions, suggestions, or feedback, feel free to contact the project maintainer:
-
-- **Name:** Sagar Chauhan
-- **Email:** [sagarchauhan015@gmail.com](mailto:sagarchauhan015@gmail.com)
-
-
-Enjoy using the Kanban board application to manage your tasks efficiently!
